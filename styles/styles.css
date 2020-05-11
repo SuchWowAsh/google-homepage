@@ -1,3 +1,8 @@
+body{ 
+    font-family: 'Roboto', sans-serif;
+ 
+}
+
 #google-logo {
     display: block;
     margin-left: auto;
@@ -20,10 +25,86 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
+    left: 100px;
 }
 
 #feelinglucky {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
+    right: 100px;
+}
+.navtop {
+    font-size: 14px;
+}
+
+#navbar1 {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+#navbar1 ul {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+#navbar1  li {
+    display: inline;
+    padding: 5px 5px 5px 5px;
+}
+
+#navbar2 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+}
+
+#navbar2 ul {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+#navbar2  li {
+    display: inline;
+    padding: 5px 5px 5px 5px;
+}
+.navbottom {
+    font-size: 14px;
+}
+
+#navbar3 {
+    position: fixed;
+    bottom: 10px;
+    left: 25px;
+}
+
+#navbar3 ul {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+#navbar3  li {
+    display: inline;
+    padding: 5px 5px 5px 5px;
+}
+
+#navbar4 {
+    position: fixed;
+    bottom: 10px;
+    right: 25px;
+
+}
+
+#navbar4 ul {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+#navbar4  li {
+    display: inline;
+    padding: 5px 5px 5px 5px;
 }
